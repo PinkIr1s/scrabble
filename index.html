@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href='style.css' rel='stylesheet'>
+</head>
+<body onload="onStart();">
+    <div id="blankPopup" class="hidden"></div>
+    <div id="board"></div>
+    <div class="flex">
+        <div class="flex">
+            <input type="button" id="return" onclick="returnPlacedTiles()">
+            <div id="tray"></div>
+            <input type="button" id="acceptButton" onclick="completePlay()">
+        </div>
+        <div class="vertCentred">
+            <span id="incorrectLabel"></span>
+        </div>
+    </div>
+</body>
+<script src='words.js'></script>
+<script src='script.js'></script>
